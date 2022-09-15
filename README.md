@@ -15,5 +15,45 @@ Construct different components on different days such as MUX,Edge Detector,Adder
 ### Day 1:
 #### MUX
 
-## Circuit Diagram:
-![image](https://user-images.githubusercontent.com/81455748/113479151-2980ee80-9442-11eb-8efc-123280b29d54.png)
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+### Day 2:
+#### D-Flip Flop
+
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+### Day 3:
+#### Edge Detector
+
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+### Day 4:
+#### ALU
+
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+### Day 5:
+#### Odd Counter
+
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+### Day 6:
+#### Shift Register
+
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+### Day 7:
+#### Linear Feedback Shift Register 
+
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+### Day 8:
+#### Binary to One Hot
+
+##### Circuit Diagram:
+![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+
+
+
+
+
