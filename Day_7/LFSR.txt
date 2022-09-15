@@ -1,0 +1,23 @@
+// Linear Feedback Shift Register //
+
+module LFSR(
+  input     wire      clk,
+  input     wire      reset,
+
+  output    wire[3:0] o
+);
+
+  logic [3:0] lfsr_ff;
+  logic [3:0] next;
+
+  always_ff @(posedge clk or posedge reset)
+    if (reset)
+      lfsr_ff <= 4'hE;
+    else
+      lfsr_ff <= next;
+
+  assign next = {lfsr_ff[2:0], lfsr_ff[1] ^ lfsr_ff[3]};
+
+  assign o = lfsr_ff;
+
+endmodule

@@ -1,0 +1,26 @@
+//Binary To One Hot Testbench //
+
+module tb();
+  localparam BIN = 4;
+  localparam ONE_HOT = 16;
+  
+  logic [BIN-1:0] i_b;
+  logic [ONE_HOT-1:0] out_1_hot;
+
+  bin_t_1_h #(BIN, ONE_HOT) BT1H (.*);
+
+  initial begin
+    for(int i=0; i<10; i=i+1) begin
+      i_b =i;
+      #5;
+    end
+    $finish();
+  end
+
+  initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(1);
+  end
+
+endmodule
+

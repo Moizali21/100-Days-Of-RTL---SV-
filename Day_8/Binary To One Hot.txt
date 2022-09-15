@@ -1,0 +1,14 @@
+// Binary to one-hot //
+
+module bin_t_1_h#(
+  parameter BIN = 4,
+  parameter ONE_HOT = 16
+)(
+  input   wire[BIN-1:0] i_b,
+  output  wire[ONE_HOT-1:0] out_1_hot
+);
+
+  assign out_1_hot = 1'b1<<i_b;
+
+endmodule
+

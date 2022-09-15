@@ -1,0 +1,21 @@
+// shift register
+
+module shift_reg(
+  input     logic        clk,
+  input     logic        reset,
+  input     logic       i_x,      // Serial input
+
+  output logic[3:0]  out_sr
+);
+
+  logic [3:0] sr_f;
+  logic [3:0] next;
+
+  always_ff @(posedge clk or posedge reset)
+    sr_f <= (reset==1)?4'h0:next;
+
+  assign next = {sr_f[2:0], i_x};
+
+  assign out_sr = sr_f;
+
+endmodule
