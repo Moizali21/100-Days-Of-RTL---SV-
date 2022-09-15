@@ -16,7 +16,8 @@ Construct different components on different days such as MUX,Edge Detector,Adder
 #### MUX
 
 ##### Circuit Diagram:
-![image](https://drive.google.com/drive/u/2/folders/1cX5e5s8P0qgMTUKUyt3XCUYQWIRVaaLJ)
+![image](https://user-images.githubusercontent.com/91214982/190377497-7776d2b2-9799-44e6-9337-a7ff042dbffa.png)
+
 ### Day 2:
 #### D-Flip Flop
 
